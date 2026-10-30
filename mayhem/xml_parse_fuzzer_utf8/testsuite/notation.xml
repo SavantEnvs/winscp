@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE r SYSTEM "r.dtd" [
+<!NOTATION gif SYSTEM "image/gif">
+<!ENTITY pic SYSTEM "pic.gif" NDATA gif>
+<!ENTITY ext SYSTEM "ext.xml">
+<!ELEMENT r ANY>
+<!ATTLIST r src ENTITY #IMPLIED lang NMTOKEN "en">
+]>
+<r src="pic">&ext;</r>

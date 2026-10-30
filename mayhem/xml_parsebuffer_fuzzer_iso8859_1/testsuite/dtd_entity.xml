@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA|a|b)*>
+<!ELEMENT a EMPTY>
+<!ELEMENT b (#PCDATA)>
+<!ATTLIST a id ID #REQUIRED kind (one|two) "one">
+<!ENTITY greet "hello">
+<!ENTITY nested "&greet; world &#65;">
+<!ENTITY % pe "<!ENTITY fromparam 'param'>">
+%pe;
+]>
+<doc>&nested; &fromparam;<a id="i1"/><b>&greet;</b></doc>

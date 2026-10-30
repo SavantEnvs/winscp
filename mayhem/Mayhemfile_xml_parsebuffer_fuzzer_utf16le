@@ -1,0 +1,9 @@
+project: savantenvs/winscp
+target: xml_parsebuffer_fuzzer_utf16le
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xml_parsebuffer_fuzzer_utf16le/testsuite
+cmds:
+  - cmd: /mayhem/xml_parsebuffer_fuzzer_utf16le
+    libfuzzer: true
+    timeout: 10
