@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<p:root xmlns:p="urn:example:p" xmlns="urn:example:d" xmlns:q="urn:example:q">
+  <p:child q:attr="1" plain="2"/><child xmlns="urn:example:other"><q:x/></child>
+</p:root>

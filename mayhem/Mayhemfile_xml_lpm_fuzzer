@@ -1,0 +1,9 @@
+project: savantenvs/winscp
+target: xml_lpm_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/xml_lpm_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/xml_lpm_fuzzer
+    libfuzzer: true
+    timeout: 10

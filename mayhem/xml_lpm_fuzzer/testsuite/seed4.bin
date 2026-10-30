@@ -1,0 +1,1 @@
+IG<?pi data?><!DOCTYPE r [<!ENTITY % p "<!ENTITY q 'v'>"> %p;]><r>&q;</r>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<r>
+<![CDATA[ <not> & markup ]]>
+<?target some data?>
+&lt;&gt;&amp;&apos;&quot;&#x41;&#66;
+</r>
